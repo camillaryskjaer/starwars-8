@@ -14,6 +14,7 @@ namespace Starwars
             List<Planet> planets = LoadData();
 
             // Opgave 1
+            //Måske ToLower også havde været interessant her :)
             var resultsOne = planets.Where((obj) => obj.Name.StartsWith("M"));
 
             // Opgave 2
